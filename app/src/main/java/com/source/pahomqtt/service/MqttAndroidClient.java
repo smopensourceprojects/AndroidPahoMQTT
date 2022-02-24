@@ -94,7 +94,7 @@ public class MqttAndroidClient implements IMqttAsyncClient {
 		MANUAL_ACK
 	}
 
-	private static final String SERVICE_NAME = "org.eclipse.paho.android.service.MqttService";
+	private static final String SERVICE_NAME = "com.source.pahomqtt.service.MqttService";
 
 	private static final int BIND_SERVICE_FLAG = 0;
 
