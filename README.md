@@ -15,6 +15,6 @@ __This is created for Open Source to use any applications/projects. Few codes ch
 1. Upgraded to 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
 2. Supported Android 11+
 3. Removed Local Broadcast Receiver and replaced with EventBus 
-4. Added PendingIntent.FLAG_MUTABLE to support Android 12 
+4. Removed AlarmManager to support Android 13
 5. Implemented removeMessage(), reconnect() and getInFlightMessageCount() in MqttService 
 ```
